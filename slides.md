@@ -1,0 +1,36 @@
+---
+marp: true
+theme: product-docs
+paginate: true
+_paginate: true
+footer: 'Page $[page]/$[total]'
+---
+
+```css
+/* @theme product-docs */
+
+section {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #0b1020;
+  color: #e5e7eb;
+}
+
+section h1,
+section h2,
+section h3 {
+  color: #38bdf8;
+}
+
+section.lead {
+  text-align: center;
+  justify-content: center;
+}
+
+section code {
+  font-size: 0.85em;
+}
+
+section footer {
+  font-size: 0.6em;
+  color: #9ca3af;
+}
