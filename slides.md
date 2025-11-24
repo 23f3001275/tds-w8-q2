@@ -40,7 +40,9 @@ docs/
 🛠 Keep docs next to the code, update via PR.
 ```
 
-<!-- _class: lead --> <!-- BACKGROUND IMAGE SLIDE -->
+<!-- _class: lead -->
+<!-- BACKGROUND IMAGE SLIDE -->
+![bg](https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg)
 
 # High-Level Data Flow
 Client → API Gateway → Core Service → Worker Queue → Database
