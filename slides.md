@@ -51,7 +51,7 @@ Client → API Gateway → Core Service → Worker Queue → Database
 Batch processing:
 
 ### Naive approach:
-\( T(n) = O(n^2) \)
+$$T(n) = O(n^2)$$
 
 ### Optimized (Hash Map):
 $$T(n) = O(n)$$
