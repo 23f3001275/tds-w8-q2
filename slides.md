@@ -80,6 +80,6 @@ async function createOrder(order) {
 * Regenerate PDF/PPTX through Marp
 
 <!-- _class: lead -->
-Contact
-📧 23f3001275@ds.study.iitm.ac.in
-💬 Feedback? PRs welcome!
+### Contact
+* 📧 [23f3001275@ds.study.iitm.ac.in](23f3001275@ds.study.iitm.ac.in)
+* 💬 Feedback? PRs welcome!
