@@ -42,11 +42,8 @@ docs/
 
 ---
 
-<!-- Slide with background + text -->
-<!-- _class: lead -->
-<!-- _backgroundImage: url("https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg") -->
-<!-- _backgroundPosition: center -->
-<!-- _backgroundSize: cover -->
+<!-- BACKGROUND IMAGE (VALID MARP SLIDE) -->
+![bg](https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg)
 
 # High-Level Data Flow
 Client → API Gateway → Core Service → Worker Queue → Database
