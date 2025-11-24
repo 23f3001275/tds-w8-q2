@@ -13,7 +13,8 @@ footer: "Page $[page]/$[total]"
 
 **Author:** Technical Writer  
 **Contact:** 23f3001275@ds.study.iitm.ac.in  
-📌 *Stored in Git. Easy to version-control.*
+
+📌 *Version-controlled documentation using Marp.*
 
 ---
 
@@ -21,7 +22,7 @@ footer: "Page $[page]/$[total]"
 
 - 🔐 Single **source of truth** in Markdown  
 - 📦 Works with **Git & pull requests**  
-- 🔁 Can export to:
+- 🔁 Export to:
   - PDF
   - HTML
   - PPTX (via Marp CLI)
@@ -36,18 +37,18 @@ docs/
   ├─ product-docs-theme.css
   ├─ api-reference/
   └─ guides/
-🛠 Keep docs next to the code, update via PR.
+🛠 Keep docs next to the code, update via PR. ``
 
 <!-- _class: lead --> <!-- BACKGROUND IMAGE SLIDE -->
 
-High-Level Data Flow
+# High-Level Data Flow
 Client → API Gateway → Core Service → Worker Queue → Database
 
-Algorithmic Complexity (Example)
+## Algorithmic Complexity (Example)
 Batch processing:
 
-Naive approach:
-𝑇
+### Naive approach:
+$$ 𝑇
 (
 𝑛
 )
@@ -59,10 +60,10 @@ Naive approach:
 )
 T(n)=O(n 
 2
- )
+ ) $$
 
-Optimized (Hash Map):
-𝑇
+### Optimized (Hash Map):
+$$ 𝑇
 (
 𝑛
 )
@@ -71,11 +72,11 @@ Optimized (Hash Map):
 (
 𝑛
 )
-T(n)=O(n)
+T(n)=O(n) $$
 
 Used for request de-duplication and idempotency.
 
-Sample Client Code (JavaScript)
+# Sample Client Code (JavaScript)
 js
 Copy code
 async function createOrder(order) {
@@ -90,15 +91,15 @@ async function createOrder(order) {
 Versioning & Release Notes
 Semantic versioning
 
-v1.x stable
+v1.x — stable
 
-v2.x beta + breaking
+v2.x — beta + breaking
 
 Every release:
 
 Update CHANGELOG
 
-Regenerate PDF/PPTX via Marp
+Regenerate PDF/PPTX through Marp
 
 <!-- _class: lead -->
 Contact
