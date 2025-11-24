@@ -37,7 +37,8 @@ docs/
   ├─ product-docs-theme.css
   ├─ api-reference/
   └─ guides/
-🛠 Keep docs next to the code, update via PR. ``
+🛠 Keep docs next to the code, update via PR.
+```
 
 <!-- _class: lead --> <!-- BACKGROUND IMAGE SLIDE -->
 
@@ -48,37 +49,15 @@ Client → API Gateway → Core Service → Worker Queue → Database
 Batch processing:
 
 ### Naive approach:
-$$ 𝑇
-(
-𝑛
-)
-=
-𝑂
-(
-𝑛
-2
-)
-T(n)=O(n 
-2
- ) $$
+\( T(n) = O(n^2) \)
 
 ### Optimized (Hash Map):
-$$ 𝑇
-(
-𝑛
-)
-=
-𝑂
-(
-𝑛
-)
-T(n)=O(n) $$
+$$T(n) = O(n)$$
 
 Used for request de-duplication and idempotency.
 
 # Sample Client Code (JavaScript)
-js
-Copy code
+```
 async function createOrder(order) {
   const res = await fetch("https://api.example.com/v1/orders", {
     method: "POST",
@@ -88,18 +67,17 @@ async function createOrder(order) {
   if (!res.ok) throw new Error("API Error");
   return res.json();
 }
-Versioning & Release Notes
-Semantic versioning
+```
 
-v1.x — stable
+### Versioning & Release Notes
+#### Semantic versioning
 
-v2.x — beta + breaking
+* `v1.x` — stable
+* `v2.x` — beta + breaking
 
-Every release:
-
-Update CHANGELOG
-
-Regenerate PDF/PPTX through Marp
+#### Every release:
+* Update CHANGELOG
+* Regenerate PDF/PPTX through Marp
 
 <!-- _class: lead -->
 Contact
